@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    list-style: none;
+
+
+}
+.info{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-right: 20px;
+}
+#reset{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(149, 0, 255);
+    font-size: large;
+    border-radius: 10px ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#start{
+
+    margin-bottom: 200px;
+    /* padding-right: 200px; */
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    font-size: large;
+    border-radius: 10px ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yall{
+    display: flex;
+ /* padding-left: 700px; */
+ align-items: center;
+ justify-content: center;
+ /* margin-bottom: 5600px; */
+ /* padding-bottom: 100px; */
+ 
+}
+.gameinfo{
+    align-items: center;
+    justify-content: center;
+
+}
+.box:hover{
+    background-color: rgb(237, 97, 237);
+    cursor: pointer;
+
+}
+
+.imgbox img{
+    width: 0;
+    
+    transition: width 1s ease-in-out;
+
+}
+nav{
+    background-color: black
+    ;
+    width: 100%;
+    height: 100px;
+
+}
+nav ul li{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px
+
+}
+.gameContainer{  
+    display: grid;
+
+    grid-template-columns: 100px 100px 100px ;
+    /* grid-template-rows: 100px 100px 100px ; */
+    width: 400px;
+    /* height: 400px; */
+    padding-top: 50px;
+    padding-left: 300px;
+    /* border-color: white; */
+    /* border: ; */
+
+
+
+}
+.icon{
+    color: black;
+    font-size: 60px;
+}
+.box{
+  
+    border: 2px solid rgb(8, 1, 14);
+    height: 100px;
+    background-color:whitesmoke ;
+    /* width: 50px; */
+}
+.box{
+    font-size: 100px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ; */
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    /* font-weight: ; */
+    padding-left: 22px;
+    padding-bottom: 25px;
+}
+@media only screen and (max-width: 1300px) {
+    body {
+      /* background-color: lightblue; */
+    }
+    .yall{
+        flex-wrap: wrap
+
+    }
+    .gameContainer{
+        flex-wrap:  wrap;
+    }
+    nav{
+        width: 1300px;
+        height: 100px;
+    }
+    nav ul li{
+        font-size: 50px;
+    }
+    .gameInfo{
+        font-size: medium;
+        /* width: 10px; */
+    }
+  }
